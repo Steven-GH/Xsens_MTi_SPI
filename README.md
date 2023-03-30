@@ -22,6 +22,7 @@ At least the following hardware connections are required:
 * MTi_GND - Arduino_GND
 * MTi_3.3V - Arduino_3.3V
 * MTi_DRDY - Arduino_D3
+
 Additionally, make sure to:
 * Enable SPI by switching PSEL0,1 to "0,1"
 * Supply the MTi-#-DK with 3.3V (since 5V will force USB mode)
