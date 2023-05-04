@@ -28,7 +28,7 @@ MTi *MyMTi = NULL;
 
 
 void setup() {
-  Serial.begin(9600);               //Initialize communication for serial monitor output (Ctrl+Shift+M)
+  Serial.begin(115200);             //Initialize communication for serial monitor output (Ctrl+Shift+M)
   SPI.begin();
   pinMode(DRDY, INPUT);             //Data Ready pin, indicates whether data/notifications are available to be read
   pinMode(nCS, OUTPUT);             //nCS pin, used by SPI master to select MTi
